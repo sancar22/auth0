@@ -52,7 +52,7 @@ function Home() {
       <button onClick={unauthenticatedAPI}>
         unauthenticated API
       </button>
-      <button onClick={() => logout({ returnTo: 'http://localhost:5173/'})}>
+      <button onClick={() => logout({ returnTo: 'http://localhost:5173/'})}> {/* Also add it to your settings in auth0 */}
         Log Out
       </button>
     </div>
